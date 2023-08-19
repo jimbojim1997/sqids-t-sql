@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Squids", "Squids.sqlproj", "{DDAE0F02-3844-474E-853F-96C7A2804191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAE0F02-3844-474E-853F-96C7A2804191}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388F67EC-752F-4A29-A6BA-90F9B183467B}
+	EndGlobalSection
+EndGlobal
