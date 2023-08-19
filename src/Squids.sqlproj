@@ -24,6 +24,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>Latin1_General_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <DefaultSchema>sqids</DefaultSchema>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -62,12 +63,19 @@
     <Folder Include="sqids\Tables" />
     <Folder Include="sqids\Functions" />
     <Folder Include="Security\" />
+    <Folder Include="sqids\User Defined Types\" />
+    <Folder Include="Unit Tests" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="sqids\Tables\BlockList.sql" />
     <Build Include="sqids\Functions\Encode.sql" />
     <Build Include="sqids\Functions\Decode.sql" />
     <Build Include="Security\squids.sql" />
+    <Build Include="sqids\Functions\GetCharacters.sql" />
+    <Build Include="sqids\Functions\GetDistinctCharacters.sql" />
+    <Build Include="sqids\Functions\ShuffleCharacters.sql" />
+    <Build Include="sqids\User Defined Types\IntCharTable.sql" />
+    <Build Include="Unit Tests\Shuffle.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare.scmp" />
