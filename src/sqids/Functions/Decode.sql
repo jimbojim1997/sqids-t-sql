@@ -1,0 +1,8 @@
+﻿CREATE FUNCTION [sqids].[Decode]
+(
+	@Id VARCHAR(MAX)
+)
+RETURNS INT
+BEGIN
+	RETURN ''
+END
