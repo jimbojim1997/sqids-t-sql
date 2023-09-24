@@ -9,7 +9,7 @@
   <TargetModelProvider>
     <ProjectBasedModelProvider>
       <ProjectGuid>{ddae0f02-3844-474e-853f-96c7a2804191}</ProjectGuid>
-      <Name>Squids</Name>
+      <Name>Sqids</Name>
     </ProjectBasedModelProvider>
   </TargetModelProvider>
   <SchemaCompareSettingsService>
@@ -338,7 +338,7 @@
       </PropertyElementName>
       <PropertyElementName>
         <Name>TargetDatabaseName</Name>
-        <Value>Squids</Value>
+        <Value>Sqids</Value>
       </PropertyElementName>
       <PropertyElementName>
         <Name>TargetConnectionString</Name>
