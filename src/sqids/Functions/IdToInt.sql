@@ -6,7 +6,7 @@ RETURNS INT
 BEGIN
 	DECLARE @a INT = 0,
 			@length INT = LEN(@Id),
-			@alhabetLength INT = (SELECT MAX(I) FROM @Alphabet) + 1,
+			@alhabetLength INT = (SELECT COUNT(*) FROM @Alphabet),
 			@i INT = 0,
 			@c NCHAR(1),
 			@indexOfChar INT
