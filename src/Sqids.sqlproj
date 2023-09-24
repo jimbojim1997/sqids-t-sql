@@ -78,6 +78,7 @@
     <Build Include="Unit Tests\ShuffleCharacters.sql" />
     <Build Include="sqids\Functions\IsBlockedId.sql" />
     <Build Include="sqids\Functions\IntToId.sql" />
+    <Build Include="sqids\Functions\IdToInt.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare.scmp" />
