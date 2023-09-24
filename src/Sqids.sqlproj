@@ -75,7 +75,7 @@
     <Build Include="sqids\Functions\GetDistinctCharacters.sql" />
     <Build Include="sqids\Functions\ShuffleCharacters.sql" />
     <Build Include="sqids\User Defined Types\IntCharTable.sql" />
-    <Build Include="Unit Tests\ShuffleCharacters.sql" />
+    <Build Include="Unit Tests\ShuffleCharactersTests.sql" />
     <Build Include="sqids\Functions\IsBlockedId.sql" />
     <Build Include="sqids\Functions\IntToId.sql" />
     <Build Include="sqids\Functions\IdToInt.sql" />
