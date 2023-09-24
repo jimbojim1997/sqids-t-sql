@@ -18,7 +18,7 @@ BEGIN
 	WHILE (@i < @length)
 	BEGIN
 		SELECT @c = C FROM @characters WHERE I = @i
-		SELECT @indexOfChar = I FROM @Alphabet WHERE C = @c
+		SELECT @indexOfChar = I FROM @Alphabet WHERE C = @c COLLATE Latin1_General_100_CS_AS_KS_WS_SC
 
 		SET @a = @a * @alhabetLength + @indexOfChar
 
