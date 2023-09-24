@@ -79,9 +79,11 @@
     <Build Include="sqids\Functions\IsBlockedId.sql" />
     <Build Include="sqids\Functions\IntToId.sql" />
     <Build Include="sqids\Functions\IdToInt.sql" />
+    <Build Include="Unit Tests\IdToIntTests.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare.scmp" />
+    <None Include="Unit Tests\IntToIdTests.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="PopulateBlocklist.PostDeployment.sql" />
