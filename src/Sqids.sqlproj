@@ -80,6 +80,8 @@
     <Build Include="sqids\Functions\IntToId.sql" />
     <Build Include="sqids\Functions\IdToInt.sql" />
     <Build Include="Unit Tests\IdToIntTests.sql" />
+    <Build Include="sqids\Functions\EncodeInternal.sql" />
+    <Build Include="sqids\User Defined Types\IntIntTable.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare.scmp" />
