@@ -86,6 +86,7 @@
   <ItemGroup>
     <None Include="SchemaCompare.scmp" />
     <None Include="Unit Tests\IntToIdTests.sql" />
+    <None Include="Unit Tests\EncodeTests.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="PopulateBlocklist.PostDeployment.sql" />
